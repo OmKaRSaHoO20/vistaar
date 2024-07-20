@@ -1,0 +1,156 @@
+import React from 'react';
+import './module.css';
+
+const Footer = () => {
+    return (
+        <footer className="footer">
+            <div className="footer-main">
+                <div className="footer-logo grid-1">
+                    <div className="logo-box">
+                        <div className='logo-div'>
+                            <span className="logo-words">THE</span>
+                        </div>
+                        <div className='logo-div'>
+                            <span className="logo-words" style={{ paddingLeft: "40px", paddingRight: "40px" }}>FIGMA</span>
+                        </div>
+                        <div className='logo-div'>
+                            <span className="logo-words" style={{ paddingLeft: "40px", paddingRight: "40px" }}>STORE</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="subtext">
+                    OBJECTS <br />THAT INSPIRE.
+                </div>
+                <div className="footer-links">
+                    <ul>
+                        <li><a href="/">Privacy Policy</a></li>
+                        <li><a href="/">Contact us</a></li>
+                        <li><a href="/">Terms of use</a></li>
+                    </ul>
+                </div>
+                <div className="footer-social">
+                    <div>
+                        <a href="https://figma.com" target="_blank" rel="noopener noreferrer">FIGMA</a>
+                    </div>
+                    <div>
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">TWITTER</a>
+                    </div>
+                    <div>
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">INSTAGRAM</a>
+                    </div>
+                    <div>
+                        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">YOUTUBE</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <div class="marquee">
+                    <span class="word">Figma's</span>
+                    <span class="word"><svg class="snippet--ticker-shape" width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.662109 17.3626V6.21266L6.23707 0.637695L15.9933 6.21266L22.962 0.637695V11.7876L15.9933 17.3626L6.23707 11.7876L0.662109 17.3626Z" fill="white"></path>
+                    </svg></span>
+
+                    <span class="word">marvelously</span>
+                    <span class="word"><svg class="snippet--ticker-shape" width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="11.687" cy="12" r="11.1499" fill="white"></circle>
+                    </svg></span>
+
+                    <span class="word">considered</span>
+                    <span class="word"><svg class="snippet--ticker-shape" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.199219 0.637695H9.25853C14.2619 0.637695 18.3179 4.69369 18.3179 9.69701C18.3179 14.7003 14.2619 18.7563 9.25853 18.7563C4.25521 18.7563 0.199219 14.7003 0.199219 9.69701V0.637695Z" fill="white"></path>
+                    </svg></span>
+
+                    <span class="word">collection</span>
+                    <span class="word"> <svg class="snippet--ticker-shape" width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.286133 0.243652H11.4361H22.586C15.6173 5.66375 15.6173 14.3359 22.586 19.756H11.4361H0.286133C7.25484 14.3359 7.25484 5.66375 0.286133 0.243652Z" fill="white"></path>
+                    </svg></span>
+
+                    <span class="word">of</span>
+                    <span class="word"> <svg class="snippet--ticker-shape" width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="11.3115" y="0.850098" width="15.7684" height="15.7684" transform="rotate(45 11.3115 0.850098)" fill="white"></rect>
+                    </svg></span>
+
+                    <span class="word">objects</span>
+                    <span class="word"><svg class="snippet--ticker-shape" width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="13.1858" cy="17.2961" rx="5.85371" ry="12.5437" transform="rotate(90 13.1858 17.2961)" fill="white"></ellipse>
+                        <ellipse cx="13.1858" cy="6.70381" rx="5.85371" ry="12.5437" transform="rotate(90 13.1858 6.70381)" fill="white"></ellipse>
+                    </svg></span>
+
+                    <span class="word">for</span>
+                    <span class="word"><svg class="snippet--ticker-shape" width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.818 0.850098H0.305664L3.86452 7.8188L0.305664 12L3.86452 16.1812L0.305664 23.15H19.818L16.1365 16.1812L19.818 12L16.1365 7.8188L19.818 0.850098Z" fill="white"></path>
+                    </svg></span>
+
+                    <span class="word">our</span>
+                    <span class="word"><svg class="snippet--ticker-shape" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.180664" y="0.243652" width="19.5124" height="19.5124" rx="5.57496" fill="white"></rect>
+                    </svg></span>
+
+                    <span class="word">time</span>
+                    <span class="word"><svg class="snippet--ticker-shape" width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.393555 17.3626V9.00014C0.393555 3.42518 3.18104 0.637695 7.36226 0.637695C12.9372 0.637697 15.7247 6.21266 19.9059 6.21266C22.6934 6.21266 24.0872 4.81892 24.0872 0.637695H25.4809V9.00014C25.4809 14.5751 22.6934 17.3626 18.5122 17.3626C12.9372 17.3626 10.1497 11.7876 5.96852 11.7876C3.45397 11.7876 1.7873 13.3207 1.7873 17.3626H0.393555Z" fill="white"></path>
+                    </svg></span>
+
+                    <span class="word">on</span>
+                    <span class="word"><svg class="snippet--ticker-shape" width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.662109 17.3626V6.21266L6.23707 0.637695L15.9933 6.21266L22.962 0.637695V11.7876L15.9933 17.3626L6.23707 11.7876L0.662109 17.3626Z" fill="white"></path>
+                    </svg></span>
+                    <span class="word">Figma's</span>
+                    <span class="word"><svg class="snippet--ticker-shape" width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.662109 17.3626V6.21266L6.23707 0.637695L15.9933 6.21266L22.962 0.637695V11.7876L15.9933 17.3626L6.23707 11.7876L0.662109 17.3626Z" fill="white"></path>
+                    </svg></span>
+
+                    <span class="word">marvelously</span>
+                    <span class="word"><svg class="snippet--ticker-shape" width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="11.687" cy="12" r="11.1499" fill="white"></circle>
+                    </svg></span>
+
+                    <span class="word">considered</span>
+                    <span class="word"><svg class="snippet--ticker-shape" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.199219 0.637695H9.25853C14.2619 0.637695 18.3179 4.69369 18.3179 9.69701C18.3179 14.7003 14.2619 18.7563 9.25853 18.7563C4.25521 18.7563 0.199219 14.7003 0.199219 9.69701V0.637695Z" fill="white"></path>
+                    </svg></span>
+
+                    <span class="word">collection</span>
+                    <span class="word"> <svg class="snippet--ticker-shape" width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.286133 0.243652H11.4361H22.586C15.6173 5.66375 15.6173 14.3359 22.586 19.756H11.4361H0.286133C7.25484 14.3359 7.25484 5.66375 0.286133 0.243652Z" fill="white"></path>
+                    </svg></span>
+
+                    <span class="word">of</span>
+                    <span class="word"> <svg class="snippet--ticker-shape" width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="11.3115" y="0.850098" width="15.7684" height="15.7684" transform="rotate(45 11.3115 0.850098)" fill="white"></rect>
+                    </svg></span>
+
+                    <span class="word">objects</span>
+                    <span class="word"><svg class="snippet--ticker-shape" width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="13.1858" cy="17.2961" rx="5.85371" ry="12.5437" transform="rotate(90 13.1858 17.2961)" fill="white"></ellipse>
+                        <ellipse cx="13.1858" cy="6.70381" rx="5.85371" ry="12.5437" transform="rotate(90 13.1858 6.70381)" fill="white"></ellipse>
+                    </svg></span>
+
+                    <span class="word">for</span>
+                    <span class="word"><svg class="snippet--ticker-shape" width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.818 0.850098H0.305664L3.86452 7.8188L0.305664 12L3.86452 16.1812L0.305664 23.15H19.818L16.1365 16.1812L19.818 12L16.1365 7.8188L19.818 0.850098Z" fill="white"></path>
+                    </svg></span>
+
+                    <span class="word">our</span>
+                    <span class="word"><svg class="snippet--ticker-shape" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.180664" y="0.243652" width="19.5124" height="19.5124" rx="5.57496" fill="white"></rect>
+                    </svg></span>
+
+                    <span class="word">time</span>
+                    <span class="word"><svg class="snippet--ticker-shape" width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.393555 17.3626V9.00014C0.393555 3.42518 3.18104 0.637695 7.36226 0.637695C12.9372 0.637697 15.7247 6.21266 19.9059 6.21266C22.6934 6.21266 24.0872 4.81892 24.0872 0.637695H25.4809V9.00014C25.4809 14.5751 22.6934 17.3626 18.5122 17.3626C12.9372 17.3626 10.1497 11.7876 5.96852 11.7876C3.45397 11.7876 1.7873 13.3207 1.7873 17.3626H0.393555Z" fill="white"></path>
+                    </svg></span>
+
+                    <span class="word">on</span>
+                    <span class="word"><svg class="snippet--ticker-shape" width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.662109 17.3626V6.21266L6.23707 0.637695L15.9933 6.21266L22.962 0.637695V11.7876L15.9933 17.3626L6.23707 11.7876L0.662109 17.3626Z" fill="white"></path>
+                    </svg></span>
+
+                </div>
+            </div>
+        </footer>
+    );
+};
+
+export default Footer;

@@ -1,0 +1,165 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  position: absolute;
+  padding: 20px 80px;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+}
+
+.left-section,
+.center-section,
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.header-button {
+  text-transform: capitalize;
+  font-weight: 700;
+  background: none;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 8px 25px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background 0.5s, color 0.5s;
+}
+
+.header-button:hover {
+  background: #000;
+  color: #fff;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 7rem;
+  cursor: pointer;
+}
+
+.country-selector {
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 8px 10px;
+  background: none;
+  font-size: 16px;
+  margin-right: 10px;
+  font-weight: 600;
+  transition: background 0.5s, color 0.5s;
+}
+
+.country-selector:focus {
+  background: #000;
+  color: #fff;
+}
+
+.country-selector option {
+  background: #000;
+  color: #fff;
+  transition: background 0.5s, color 0.5s;
+}
+
+.country-selector option:hover {
+  background: #555;
+  color: #fff;
+}
+
+.header-icon {
+  background: none;
+  border: none;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    padding: 20px 40px;
+  }
+
+  .header-title {
+    font-size: 20px; 
+  }
+
+  .header-button {
+    padding: 8px 20px;
+  }
+
+  .country-selector {
+    padding: 8px 8px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .header {
+    padding: 20px 20px;
+  }
+
+  .header-title {
+    font-size: 18px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .header-button {
+    padding: 8px 15px;
+  }
+
+  .country-selector {
+    padding: 8px 6px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .left-section,
+  .right-section {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-button {
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+  }
+
+  .country-selector {
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+  }
+
+  .header-icon {
+    margin: 5px 0;
+  }
+
+  .header-title {
+    padding-left: 0;
+
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header {
+    padding: 10px;
+  }
+
+  .header-title {
+    font-size: 16px;
+  }
+
+  .header-button {
+    padding: 6px 10px;
+  }
+
+  .country-selector {
+    padding: 6px 4px;
+  }
+}
